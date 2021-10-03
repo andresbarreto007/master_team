@@ -1,0 +1,171 @@
+* {   
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: auto;
+    height: 100px;
+    display: flex;
+}
+
+.logo {
+    width: 70px;
+    margin: 20px;
+    position: absolute;
+}
+
+.titulo {
+    color: #4a54e2;
+    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #29d3ca;
+    text-align: center;
+    font-size:4vw;
+    margin: auto;
+}
+
+nav {
+    background: #4472C4;
+    width: auto;
+    height: 3vw;
+
+}
+
+nav li {
+    list-style: none;
+    padding: 12px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+.productos {
+    color: honeydew;
+}
+
+.ventas {
+    background: honeydew;
+}
+
+.productos2 {
+    background: honeydew;
+}
+
+.ventas2 {
+    color: honeydew;
+}
+
+.clssbuscador {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 24vw;
+}
+
+.clsssbuscador {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 30vw;
+}
+
+form.buscar01 input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.buscar01 button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.buscar01 button:hover {
+    background: #0b7dda;
+  }
+  
+  form.buscar01::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .tablacompleta {
+      border: #4472C4 2px solid;
+      margin: 10px;
+  }
+
+.titulotable {
+    background: #D9D9D9;
+    padding: 15px;
+}
+
+.titulotable h2 {
+    font-size: 17px;
+    display: inline-block;
+}
+
+.titulotable div {
+    display: inline-block;
+}
+
+.titulotable a {
+    background-color: #4472C4;
+    border: none;
+    color: white;
+    padding: 7.5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+}
+
+.tablacompleta table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#productos {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #productos td, #productos th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #productos tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #productos tr:hover {background-color: #ddd;}
+  
+  #productos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4472C4;
+    color: white;
+  }
+
+  .productostable {
+      margin: 15px;
+  }
+
+  footer
+{
+    margin-top:6vw;
+    width:100%;
+    height:20px;
+    text-align: center;
+}
