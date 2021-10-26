@@ -1,7 +1,12 @@
+import { LoginButton } from './Login';
+import { LogoutButton } from './Logout';
+import { Profile } from './Profile';
+import { useAuth0 } from '@auth0/auth0-react';
 import React, { Component } from 'react';
 
-class App extends Component {
 
+class App extends Component {
+ 
     constructor() {
         super();
         this.state = {
@@ -39,7 +44,7 @@ class App extends Component {
               })
                 .then(res => res.json())
                 .then(data => {
-                  window.M.toast({html: 'Producto Editado'});
+                  window.M.toast({html: 'Venta Editada'});
                   this.setState({_id: '', descripcion: '', valor_unitario: '', estado: ''});
                   this.fetchProducto();
                 });
@@ -102,6 +107,11 @@ class App extends Component {
                     </div>
                 </nav>
                 <div className="container">
+                    <div>
+                        <Profile/>
+                        <LoginButton/>
+                        <LogoutButton/>
+                    </div>
                     <div className="row">
                         <div className="col s5">
                             <div className="card">
